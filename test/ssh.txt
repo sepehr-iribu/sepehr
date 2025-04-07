@@ -1,0 +1,17 @@
+ssh (secure shell) : 
+
+installing openssh :
+sudo apt install openssh-server
+
+rahandazi :
+sudo systemctl enable ssh
+sudo systemctl start ssh
+sudo systemctl status ssh
+
+verf :
+sudo ufw allow ssh
+sudo ufw enable
+sudo ufw reload
+ 
+str : 
+ssh root@serverip –p port
